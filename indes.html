@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <div class="contenner">
+        <div class="headder">
+            <header> เครื่องคำนวณดัชนีมวลกาย</header>
+        </div>
+        <div class="CONTEN">
+            <div class="inputblox">
+                 <input  type="text" id="inputweight" placeholder="กรุณาใส่น้ำหนัก (กก.)"><br>
+            </div>
+            <div class="inputblox">
+                <input  type="text" id="inputhight"  placeholder="กรุณาใส่ส่วนสูง (ม.)" ><br>
+            </div>
+            <button class="1" onclick="run(document.getElementById('inputweight').value , document.getElementById('inputhight').value)"> ค่า BMI</button>
+            <div class="p"><p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
